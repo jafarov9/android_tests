@@ -8,8 +8,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val tax = Tax()
-        val netIncome = tax.calculateIncome(100.0, 0.1)
-        val netTax = tax.calculateTax(100.0, 0.1)
     }
 }
